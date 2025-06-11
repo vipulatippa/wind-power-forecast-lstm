@@ -16,23 +16,6 @@ This project implements a deep learning-based approach to forecast wind turbine 
 The dataset is publicly available and sourced from Kaggle:  
 🔗 [Wind Turbine SCADA Dataset on Kaggle](https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset)
 
----
-
-## 🔧 Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/wind-power-forecast-lstm.git
-cd wind-power-forecast-lstm
-
-# Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate   # or venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-
 📈 Results Preview
 Here’s a sample of the forecasting performance for +1 and +3 time steps:
 
@@ -50,4 +33,20 @@ Here’s a sample of the forecasting performance for +1 and +3 time steps:
 Dataset by Berker Isen on Kaggle
 
 TensorFlow, Keras, Matplotlib, Scikit-learn for the ML stack
+
+---
+
+## 🔧 Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/wind-power-forecast-lstm.git
+cd wind-power-forecast-lstm
+
+# Create virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate   # or venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
 
